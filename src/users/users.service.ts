@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 export type User = {
     userId: number;
     username: string;
-    password: string;
+    password: string | undefined;
 }
 
 @Injectable()
